@@ -1,0 +1,2 @@
+module LoaithuocatsHelper
+end

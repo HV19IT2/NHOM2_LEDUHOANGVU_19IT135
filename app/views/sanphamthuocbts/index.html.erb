@@ -1,0 +1,29 @@
+<ul style="display: flex">
+<a href="/sanphamthuocbts">Thuốc</a> |
+<a href="/loaithuocats">Loại thuốc</a> |
+<a href="/hangsanxuatts">Hãng SX</a> |
+<a href="/nhacungcapthuocts">Nhà CC</a> |
+</ul>
+<ul>
+  <% @sanphamthuocbts.each do |sanphamthuocbt| %>
+    <li>
+      <h3>Tên Thuốc: </h3><%= sanphamthuocbt.nameSP %>
+    </li>
+   <li>
+      <h3>Công Dụng: </h3><%= sanphamthuocbt.congdung %>
+    </li>
+    <li>
+      <h3>Loại Thuốc: </h3><%= sanphamthuocbt.loaithuocat_id %>
+    </li>
+    <li>
+      <h3>Hãng Sản Xuất: </h3><%= sanphamthuocbt.hangsanxuatt_id %>
+    </li>
+    <li>
+      <h3>Ghi chú: </h3><%= sanphamthuocbt.ghichu %>
+    </li>
+    <li>
+      <h3> NCC Thuốc: </h3><%= sanphamthuocbt.nhacungcapthuoct_id %>
+    </li>
+    <hr>
+  <% end %>
+</ul>

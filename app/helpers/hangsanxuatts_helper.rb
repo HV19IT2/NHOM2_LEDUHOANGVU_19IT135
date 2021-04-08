@@ -1,0 +1,2 @@
+module HangsanxuattsHelper
+end

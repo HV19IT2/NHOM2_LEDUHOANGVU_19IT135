@@ -1,0 +1,2 @@
+class Loaithuocat < ApplicationRecord
+end

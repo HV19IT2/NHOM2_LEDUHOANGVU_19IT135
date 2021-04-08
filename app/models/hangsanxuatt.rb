@@ -1,0 +1,2 @@
+class Hangsanxuatt < ApplicationRecord
+end

@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nameSP: MyString
+  hsanxuat: one
+  specifi: MyString
+  loaithuoc2: one
+  price: 1
+  nhacungcap: one
+
+two:
+  nameSP: MyString
+  hsanxuat: two
+  specifi: MyString
+  loaithuoc2: two
+  price: 1
+  nhacungcap: two

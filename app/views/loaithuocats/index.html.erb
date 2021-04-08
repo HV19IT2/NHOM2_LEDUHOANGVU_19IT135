@@ -1,0 +1,17 @@
+<ul style="display: flex">
+<a href="/sanphamthuocbts">Thuốc</a> |
+<a href="/loaithuocats">Loại thuốc</a> |
+<a href="/hangsanxuatts">Hãng SX</a> |
+<a href="/nhacungcapthuocts">Nhà CC</a> |
+</ul>
+<ul>
+  <% @loaithuocats.each do |loaithuocat| %>
+    <li>
+      <h3>Tên loại: </h3><%= loaithuocat.nameLT %>
+    </li>
+    <li>
+      <h3>Ghi chú: </h3><%= loaithuocat.note %>
+    </li>
+    <hr>
+  <% end %>
+</ul>

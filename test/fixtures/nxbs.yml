@@ -1,0 +1,9 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nameN: MyString
+  nation: MyString
+
+two:
+  nameN: MyString
+  nation: MyString

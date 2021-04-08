@@ -1,0 +1,17 @@
+<ul style="display: flex">
+<a href="/sanphamthuocbts">Thuốc</a> |
+<a href="/loaithuocats">Loại thuốc</a> |
+<a href="/hangsanxuatts">Hãng SX</a> |
+<a href="/nhacungcapthuocts">Nhà CC</a> |
+</ul>
+<ul>
+  <% @hangsanxuats.each do |hangsanxuatt| %>
+    <li>
+      <h3>Tên Hãng: </h3><%= hangsanxuatt.nameH %>
+    </li>
+    <li>
+      <h3>Quốc gia: </h3><%= hangsanxuatt.nation %>
+    </li>
+    <hr>
+  <% end %>
+</ul>
